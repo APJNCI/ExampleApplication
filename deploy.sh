@@ -3,7 +3,7 @@ sudo apt update && sudo apt install nodejs npm
 # install pm2 which is a productions process manager for Node.js with the built-in load balancer
 sudo npm install -g pm2
 #stop any instance of our aplication that is already running
-pm2 stop all
+pm2 stop example_app
 #change directory to the project directory
 cd ExampleApplication/ 
 #install all the dependencies
